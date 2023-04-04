@@ -10,6 +10,7 @@ function App() {
 
 	const API_URL = 'https://itunes.apple.com/search?term='
 
+	
 	useEffect(() => {
 		if(search) {
 			const fetchData = async () => {
